@@ -5,6 +5,10 @@ p {
     color: black;
 }
 
+.w-on-p {
+    color: white;
+}
+
 a, a:hover, a:focus {
     color: inherit;
     text-decoration: none;
@@ -17,6 +21,17 @@ a, a:hover, a:focus {
     border: none;
     border-radius: 0;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #FA9397;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #FA9397;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .toggle-btn {
@@ -56,6 +71,15 @@ a, a:hover, a:focus {
     border-radius: 0;
 }
 
+.alt-back {
+    background-image: url("../media/images/jumbo-temp2.jpeg");
+    background-position: center;
+}
+
+.jumbo-resize {
+    height: 7.5rem;
+}
+
 .overlay {
     background-color: rgba(90, 88, 88, 0.65);
     background-blend-mode: multiply;
@@ -64,6 +88,15 @@ a, a:hover, a:focus {
 .display-3 {
     margin-top: 10rem;
     font-family: 'Pacifico', cursive;
+}
+
+.underlogo {
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.big-logo {
+    display: none;
 }
 
 .desktop-nav li a {
@@ -162,6 +195,14 @@ a[aria-expanded="true"]::before {
 
     #sidebarCollapse span {
         display: none;
+    }
+
+    .mini-logo {
+        display: none;
+    }
+
+    .big-logo {
+        display: block;
     }
 }
 
