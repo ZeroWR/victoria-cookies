@@ -5,6 +5,11 @@ p {
     color: black;
 }
 
+.logo-font {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
 .w-on-p {
     color: white;
 }
@@ -217,6 +222,16 @@ a[aria-expanded="true"]::before {
     flex: 1 0 auto;
 }
 
+.mobile-title {
+    display: none;
+}
+
+.mini-logo-about {
+    display: block;
+    margin-top: -4rem;
+    font-size: 3rem;
+}
+
 /* -- MEDIA QUERIES -- */
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -232,29 +247,32 @@ a[aria-expanded="true"]::before {
         display: none;
     }
 
+    .big-logo {
+        display: block;
+    }
+   
     .mini-logo {
         display: none;
     }
 
-    .big-logo {
-        display: block;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-    .moblie-title {
+    .mini-logo-about {
         display: none;
     }
 
+    .mobile-title {
+        display: block;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .display-3 {
+    /* .display-3 {
         margin-top: 18rem;
-    }
+    } */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -311,5 +329,9 @@ a[aria-expanded="true"]::before {
 
     .no-border {
         border: none !important;
+    }
+
+    .mini-logo-about {
+        display: none;
     }
 }
