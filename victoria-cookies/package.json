@@ -1,0 +1,16 @@
+{
+  "name": "victoria-cookies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://zerowr.github.io/victoria-cookies",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

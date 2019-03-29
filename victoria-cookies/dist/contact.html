@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<title>CookiesByVictoria</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/fa/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/custom.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	</head>
+	<body>
+        <div class="wrapper">
+            <!-- SIDEBAR -->
+            <nav id="sidebar" class="active">
+                <div class="sidebar-header">
+                    <h3 class="logo-font">Cookies By Victoria</h3>
+                </div>
+                <ul class="list-unstyled components">
+                    <p>Navigation</p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- PAGE CONTENT -->
+            <div id="content">
+                <div class="jumbotron overlay p-3 jumbo-resize alt-back">
+                    <ul class="list-unstyled desktop-nav text-center mt-2">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html" class="no-border">Contact</a></li>
+                    </ul>
+                    <h5 class="desktop-title text-center">Cookies By Victoria</h5>
+                    <button type="button" id="sidebarCollapse" class="btn toggle-btn">
+                        <i class="fa fa-bars" id="button-font" aria-hidden="true"></i>
+                    </button>
+                    <h5 class="mobile-title text-center">Cookies By Victoria</h5>
+                    <h1 class="display-3 text-center mini-logo-about">CBV</h1>
+                    <p class="mini-logo underlogo text-center">Cookies By Victoria</p>
+                </div>
+                <div class="data-wrapper">
+                    <div class="col-sm-1">
+                        
+                    </div>
+                    <div class="col-sm-10 m-auto">
+                        <h3>Contact Form</h3>
+                        <p>Use the following form to send me an email directly with any 
+                        inquiry you may have regarding my work, or to request a 
+                        special quote. If you are unable to a specific item in my 
+                        catalog, please feel free to ask for a special quote.</p>
+                        <form action="https://formspree.io/#.com" method="POST">
+                            <div class="form-group">   
+                                <label for="name-label">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name-label" placeholder="Enter Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email-label">Your Email Address</label>
+                                <input type="email" name="_replyto" class="form-control" id="email-label" placeholder="Enter your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-label">Message</label>
+                                <textarea name="message" id="message-label" cols="30" rows="10" class="form-control" placeholder="Enter your message here"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                        <p>If you would prefer to use your own email client please use the following: </p>
+                        <button type="submit" class="btn btn-primary"><a onclick="location.href='#';">Send Email</a></button>
+                        <!-- <a href="#" onclick="location.href='#';" class="btn btn-primary">Send Email</a> -->
+                    </div>
+                    <div class="col-sm-1">
+                        
+                    </div>
+                </div>
+                <!-- FOOTER -->
+				<div class="footer">
+                    <div class="row">
+                        <div class="col text-left">
+                            <ul class="list-unstyled" style="color:white;">
+                                <li>Phone: (555)123-4567</li>
+                                <li>Email: admin@cookiesbyvictoria.com</li>
+                                <li>Address: 123 Temp St. Crystal Lake, IL</li>
+                            </ul>
+                        </div>
+                        <div class="col text-right">
+                            <ul class="list-unstyled" style="color:white;">
+                                <li style="font-family: 'Pacifico', cursive;">CookiesByVictoria © 2017</li>
+                                <li><p></p></li>
+                                <li class="w-on-p">Website Design by <a href="https://github.com/zerowr">Adam Minder</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+		<!-- SCRIPTS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>		
+		<script src="scripts/jquery-3.2.1.min.js"></script>
+		<script src="scripts/bootstrap.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+  </body>
+</html>
